@@ -6,7 +6,7 @@
 vim.keymap.set("n", "~", ":", { desc = "Lefty Command" })
 
 --oil
-vim.keymap.set("n", "<leader>t", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
+vim.keymap.set("n", "<leader>ft", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
 
 -- telescope
 local builtin = require('telescope.builtin')
@@ -33,5 +33,3 @@ vim.keymap.set("n", "<leader>wr", "<C-w>r", { desc = "Rotate windows" })
 vim.keymap.set("n", "<leader>wx", "<C-w>x", { desc = "Swap windows" })
 vim.keymap.set("n", "<leader>wc", ":close<CR>", { desc = "Close window" })
 vim.keymap.set("n", "<leader>wo", ":only<CR>", { desc = "Keep only current window" })
-
----

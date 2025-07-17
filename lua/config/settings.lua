@@ -1,3 +1,6 @@
+-- timeout adjust
+vim.opt.timeoutlen = 2000
+
 -- ui
 vim.opt.number=true
 vim.opt.relativenumber=true

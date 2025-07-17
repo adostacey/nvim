@@ -5,6 +5,9 @@
 -- lefty command
 vim.keymap.set("n", "~", ":", { desc = "Lefty Command" })
 
+--oil
+vim.keymap.set("n", "<leader>t", "<CMD>Oil --float<CR>", { desc = "Open parent directory" })
+
 -- telescope
 local builtin = require('telescope.builtin')
 vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
